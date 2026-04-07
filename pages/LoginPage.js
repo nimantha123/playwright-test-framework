@@ -1,0 +1,23 @@
+class LoginPage {
+  constructor(page) {
+    this.page = page;
+
+    // user login locators
+    this.usernameInput = page.locator('[data-test="username"]');
+    this.passwordInput = page.locator('[data-test="password"]');
+    this.loginButton = page.getByRole('button', { name: 'Login' });
+    this.errorMessage = page.locator('[data-test="error"]');
+  }
+     //user actions
+  async goto() {
+    await this.page.goto('/');
+  }
+
+  async login(username, password) {
+    await this.usernameInput.fill(username);
+    await this.passwordInput.fill(password);
+    await this.loginButton.click();
+  }
+}
+
+module.exports = LoginPage;
