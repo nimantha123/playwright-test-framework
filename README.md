@@ -24,7 +24,7 @@ The framework demonstrates how Playwright can be structured for medium to large 
 * Learn Playwright using JavaScript
 * Design a maintainable and scalable automation framework
 * Apply real world QA automation best practices
-* Avoid hard-coded data and credentials
+* Avoid hard coded data and credentials
 
 ---
 
