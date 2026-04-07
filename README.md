@@ -4,9 +4,9 @@
 
 This project is a scalable UI test automation framework built using Playwright with Node.js and JavaScript.
 
-It is designed with a focus on clean architecture, maintainability, and real-world usability rather than just writing basic Playwright test scripts.
+It is designed with a focus on clean architecture, maintainability, and real world usability rather than just writing basic Playwright test scripts.
 
-The framework demonstrates how Playwright can be structured for medium to large-scale automation projects using best practices like Page Object Model (POM), reusable fixtures, and centralized test data.
+The framework demonstrates how Playwright can be structured for medium to large scale automation projects using best practices like Page Object Model (POM), reusable fixtures, and centralized test data.
 
 ---
 
@@ -23,7 +23,7 @@ The framework demonstrates how Playwright can be structured for medium to large-
 
 * Learn Playwright using JavaScript
 * Design a maintainable and scalable automation framework
-* Apply real-world QA automation best practices
+* Apply real world QA automation best practices
 * Avoid hard-coded data and credentials
 
 ---
